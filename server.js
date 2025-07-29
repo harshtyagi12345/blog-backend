@@ -15,7 +15,7 @@ const blogRoute = require("./router/blog-router")
 const corsOptions = {
     origin: [
         "http://localhost:5173",
-        "https://blogging-platform-mu-three.vercel.app"
+        "https://blog-frontend-seven-orpin.vercel.app"
     ],
     methods:"GET, POST, PUT, DELETE, PATCH, HEAD",
     credential:true,
