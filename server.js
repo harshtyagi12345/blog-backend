@@ -18,7 +18,7 @@ const corsOptions = {
         "https://blog-frontend-seven-orpin.vercel.app"
     ],
     methods:"GET, POST, PUT, DELETE, PATCH, HEAD",
-    credential:true,
+    credentials:true,
 }
 
 app.use(cors(corsOptions));
